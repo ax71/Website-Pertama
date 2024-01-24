@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pertama</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Asets/icons/partner.png" alt="gambar logo" class="logo-img">
+            <h1 class="logo-title">Website X</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="mailto:kadekbuktiasa1985@gmail.com">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram ()">FOLLOW ME</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello I'am Anol</p>
+            <p class="deskripsi">Mahasiswa Yang akan jadi billionaire</p>
+            <img src="Asets/foto/foto 1.jpg" alt="Ilustrasi 1" class="img">
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="home">
+            <p class="title">Programmer Full Stack</p>
+            <p class="deskripsi">Belajar Aja dulu, Jagonya Belakangan</p>
+            <div class="btn2">
+                <button class="btn-cta" onclick="redirWatsapp ()">Mari Kerjasama </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card" id="about">
+                <div class="card-items">
+                    <img src="Asets/icons/24-hours.png" alt="gambar1" class="icons">
+                    <p class="card-title">24 Hours</p>
+                    <p class="card-deskripsi">selesai dalam waktu singkat</p>
+                </div>
+                <div class="card-items">
+                    <img src="Asets/icons/hot-deal.png" alt="gambar2" class="icons">
+                    <p class="card-title">Hot Deal</p>
+                    <p class="card-deskripsi">Promo dan harga murah</p>
+                </div>
+                <div class="card-items">
+                    <img src="Asets/icons/rating.png" alt="gambar3" class="icons">
+                    <p class="card-title">Rating</p>
+                    <p class="card-deskripsi">Dengan rating terbaik</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy;Website buktiasa_ 2K24</p>
+    </footer>
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://instagram.com/buktiasa_"
+        }
+
+        function redirWatsapp() {
+            window.location.href = "https://wa.me/+6282359162307"
+        }
+    </script>
+</body>
+
+</html>
